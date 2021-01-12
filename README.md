@@ -1,98 +1,35 @@
 # AxJControls
 Collections of Controls ComboBox an List with Columns (based on originals combo &amp; list of J. Elihu)
 
-## axJList 📦
+## 📦 axJList 
 
 ListBox multicolumna oculto, se "engancha" a un textbox mediante su _hWnd_ el cual se debe pasar con la función _.Init {hWnd}_
+Una vez "enganchado" con _.ShowList_ e _.HideList_ mostramos u ocultamos el List.
+Para recuperar los valores de las columnas de un item se usa el evento _ItemClick()_
 
-Una vez "enganchado" con _.ShowList_ e _.HideList_ mostramos u ocultamos el List_
+## 📦 axJColCombo
 
-## axJColCombo 📦
+ComboBox multicolumna, se muestran todas las columnas en el list, pero solo se envía un dato al textbox. El dato a enviar al textbox se define con la propiedad 
+_.ColumnInBox_, para recuperar los valores de las columnas de un item se usa el evento _ItemClick()_
 
-ComboBox multicolumna, se muestran todas las columnas en el list, pero solo se envía un dato al textbox.
-El dato a enviar al textbox se define con la propiedad _.ColumnInBox_
+## 📦 axJCombo
 
-## axJCombo 📦
-
-_ Box multicolumna oculto, se "engancha" a un textbox mediante su hWnd el cual se debe pasar con la función .Init {hWnd} ._
-_Una vez "enganchado" con .ShowList e .HideList mostramos u ocultamos el List_
-
+ComboBox simple, se pueden ingresar hasta 4 "columnas" con el _.AddItem_, de las que solo se muestra una, segun se indique en la propiedad _.ColumInList_, 
+la misma columna en el List será la que se muestra en el textBox.  
+En el evento _ItemClick()_ se puede recuperar el ListIndex del Item y los valores de sus 4 "columnas" como strings.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Nada en Particular....
 
-```
-Da un ejemplo
-```
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-## Despliegue 
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **J. Elihú** - *Trabajo Inicial, desarrollador de los usercontrol originales JList y JCombo* - 
+* **D. Rojas** - *Modificaciones y adaptaciones AxJList, AxJCombo y AxJColCombo* -
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.
