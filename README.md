@@ -3,8 +3,19 @@ Collections of Controls ComboBox an List with Columns (based on originals combo 
 
 ## axJList 📦
 
-_ListBox multicolumna oculto, se "engancha" a un textbox mediante su hWnd el cual se debe pasar con la función .Init <hWnd>_
-_una vez "enganchado" con .ShowList e .HideList mostramos u ocultamos el List_
+ListBox multicolumna oculto, se "engancha" a un textbox mediante su _hWnd_ el cual se debe pasar con la función _.Init {hWnd}_
+
+Una vez "enganchado" con _.ShowList_ e _.HideList_ mostramos u ocultamos el List_
+
+## axJColCombo 📦
+
+ComboBox multicolumna, se muestran todas las columnas en el list, pero solo se envía un dato al textbox.
+El dato a enviar al textbox se define con la propiedad _.ColumnInBox_
+
+## axJCombo 📦
+
+_ Box multicolumna oculto, se "engancha" a un textbox mediante su hWnd el cual se debe pasar con la función .Init {hWnd} ._
+_Una vez "enganchado" con .ShowList e .HideList mostramos u ocultamos el List_
 
 
 ### Pre-requisitos 📋
