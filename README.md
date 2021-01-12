@@ -1,5 +1,5 @@
 # AxJControls
-Collections of Controls ComboBox an List with Columns (based on originals combo &amp; list of J. Elihu)
+Collections of Controls ComboBox and List with Columns (based on originals Jcombo &amp; Jlist of J. Elihu)
 
 ## 📦 axJList 
 
