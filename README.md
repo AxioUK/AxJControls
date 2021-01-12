@@ -24,8 +24,12 @@ Nada en Particular....
 
 
 ### Instalación 🔧
+Registrar el OCX con RegSvr32.exe
 
 
+### BUGS
+Como OCX, ninguno conocido hasta la versión 2.2.6 publicada.
+No se recomienda usar como usercontrol directamente, pues el SubClass no es totalmente IDE-Safe, pero si lo usas como Usercontrol recuerda incorporar las clases _cScrollBars.cls_ y _cSubClass.cls_ y no ejecutar desde el IDE con el editor de formularios abierto, para ir testeando es recomendable cerrar los form, guardar, cerrar VB6, volver a abrir el proyecto VB6 y ejecutar sin ventanas/form abiertas.
 
 ## Autores ✒️
 
